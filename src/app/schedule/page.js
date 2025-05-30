@@ -175,6 +175,7 @@ export default function Schedule() {
             />
           </div>
 
+
           <ScheduleConfirmation
             location={location}
             setLocation={setLocation}
