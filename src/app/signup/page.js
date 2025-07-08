@@ -106,7 +106,7 @@ export default function SignupPage() {
               className="absolute right-3 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300"
               aria-label={showPassword ? "Hide password" : "Show password"}
             >
-              {showPassword ? <FaEyeSlash size={18} /> : <FaEye size={18} />}
+              {showPassword ?  <FaEye size={18} /> : <FaEyeSlash size={18} />}
             </button>
           </div>
         </div>
@@ -127,7 +127,7 @@ export default function SignupPage() {
               className="absolute right-3 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300"
               aria-label={showConfirmPassword ? "Hide password" : "Show password"}
             >
-              {showConfirmPassword ? <FaEyeSlash size={18} /> : <FaEye size={18} />}
+              {showConfirmPassword ? <FaEye size={18} /> : <FaEyeSlash size={18} />}
             </button>
           </div>
         </div>
