@@ -1,7 +1,6 @@
 
 
 
-
 import Link from 'next/link'
 import { steps } from '@/constant/stepsofwork'
 import { FiArrowRight } from 'react-icons/fi';
